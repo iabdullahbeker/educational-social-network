@@ -1,0 +1,311 @@
+.newstatus{
+    box-sizing: content-box;
+    margin-bottom: 25px;
+}
+.toast {
+    margin: 0 auto;  
+    color: #2192c8;
+  }
+.newpostpp {
+    padding: 0!important
+}
+.newpost {
+    margin-top: 0;
+    background: #fff;
+    border-radius: 4px;
+    text-align: left;
+    border: 1px solid #ebebeb;
+}
+
+.box-newsh {
+    margin-top: 6px;
+}
+.box-newsh-c{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    border-top: 1px solid #ededed;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+ 
+ 
+
+.bn-AddImg, .bn-AddVid, .bn-choose {
+    border-radius: 40px;
+    padding: 5px;
+    color: #878787;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all .25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    filter: grayscale(100%);
+    user-select: none;
+}
+.bn-choose{
+        border: 1px solid #ededed;
+    padding: 0px 13px 0px 8px;
+}
+.bn-share{
+    width: 100%;
+    background: #92b8ca;
+    border: 1px solid #92b8ca;
+    display: block;
+    color: #fff !important;
+    border-radius: 0px 0px 6px 6px;
+     text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.bn-share.active:hover{
+animation-delay: .5s;
+ font-weight: bold;
+}
+.bn-share.active{
+    background-color: #2192c8;
+    border-color: #2192c8;
+}
+.bn-share .loading{
+    background: url(http://localhost/4up/ico/loading2.gif);
+    width: 34px;
+    display: block;
+    height: 20px;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: auto;
+}
+.but_hidding{
+    display: none !important;
+}
+
+/* ico */
+.video-icon, .photo-icon, .public-icon, .share-icon,.file-icon {
+    width: 18px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    margin-right: .25em;
+    font-size: 1.5rem;
+    background-size: 100% 100%;
+    animation: heartUnlike .25s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+.photo-icon {
+    background: url(/4up/ico/photo-camera.png);
+    background-size: 100% 100%;
+}
+.video-icon {
+    background: url(/4up/ico/video-camera.png);
+    background-size: 100% 100%;
+}
+.file-icon {
+    background: url(http://localhost/4up/ico/folder.png);
+    background-size: 100% 100%;
+}
+.public-icon {
+    background: url(/4up/ico/worldwide.png);
+    background-size: 100% 100%;
+}
+.share-icon {
+    background: url(/4up/ico/paper-plane.png);
+    background-size: 100% 100%;
+}
+.downarrow-icon {
+    background: url(/4up/ico/down-arrow.png);
+    background-size: 100% 100%;
+    width: 10px;
+    height: 10px;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+	
+	.newpost1{
+	margin-top: 0;
+    background: #fff;
+    border-radius: 4px;
+    text-align: left;
+    border: 1px solid #ebebeb;
+	}
+	.newpost1-cc{
+		padding: 7px;
+	}
+	
+	.box-text{
+		padding: 5px;
+	}
+	#newpost-1{
+		 
+	}
+	/* newpost 0*/
+	.newpost0{
+		margin-top: 0;
+    background: #fff;
+    border-radius: 4px;
+    text-align: left;
+    border: 1px solid #ebebeb;
+		cursor: pointer;
+	}
+	.newpost0-c{
+		display: flex;
+    justify-content: space-between;
+	}	
+	.newpost0-cc{
+		display: flex;
+	}
+	.newpost0-puseri img{
+		    width: 40px;
+    height: 40px;
+    margin-left: 9px;
+    margin-top: 4px;
+		border-radius: 50%;
+    border: 1px solid #ccc;
+    }
+    
+	.newpost0-c p{
+		margin-top: 15px;
+    margin-left: 7px;
+    color: #6c6c6c;
+    font-size: 14px;
+	}
+	.newpost0-muni{
+		margin-top: 15px;
+	}
+	/*  ***************** */
+    .new-teaxa {
+        width: 100%;
+        border: 0;
+        border-radius: 5px;
+        outline: 0;
+        margin-top: 4px;
+        resize: none;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    .category {
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        padding: 11px 0px;
+     }
+    
+  
+    
+    #main_category {
+        width: 373px;
+        background: #f6f6f6;
+        color: #444;
+        direction: ltr;
+        border: 1px solid #dcdee3;
+        border-radius: 40px;
+        padding: 6px 14px;
+        outline: none;
+        margin: auto;
+    }
+    .selectYear{
+        background: #f6f6f6;
+        border-top: 1px solid #ededed;
+
+    }
+ 
+    #sel-typepost{
+        width: 67px;
+        color: #444;
+        direction: ltr;
+        border: none;
+        outline: none;
+        padding: 2px 0px 2px 24px;
+    }
+    .public-icon{
+        margin-left: -35px;
+        position: absolute;
+    }
+
+
+
+    .upimgs{
+        position: relative;
+        display: block;
+    }
+    .upimgs-c {
+        display: inline-block;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 2px;
+        border: 1px solid #e1dfdfcc;
+        background: url(http://localhost/4up/ico/loading.gif);
+        background-size: 100% 100%;
+        margin-left: 11px;
+    }
+ .sub_c{
+    display: flex;
+    width: 100%;
+    -webkit-justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    width: 400px;
+    margin: auto;
+ }
+
+ .sub_cc input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+  }
+  
+  .sub_cc input[type=checkbox] {
+    display: none;
+  }
+  
+  .sub_cc input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #b9b9b9;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 9px;
+    padding-left: 0.2em;
+    padding-bottom: 3px;
+    margin-right: 3px;
+    vertical-align: bottom;
+    color: transparent;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  .sub_cc input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  .sub_cc input[type=checkbox]:checked + label:before {
+    background-color: #2192c8;
+    border-color:#2192c8;
+    color: #fff;
+  }
+  
+  .sub_cc input[type=checkbox]:disabled + label:before {
+    transform: scale(1);
+    border-color: #aaa;
+  }
+  
+  .sub_cc input[type=checkbox]:checked:disabled + label:before {
+    transform: scale(1);
+    background-color: #bfb;
+    border-color: #bfb;
+  }
+
+  .sub_copen{
+    text-align: center;
+    padding-bottom: 15px;
+    cursor: pointer;
+    width: 150px;
+    margin: auto;
+    color: #676767;
+  }
+
+ 

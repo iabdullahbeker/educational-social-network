@@ -1,0 +1,271 @@
+
+
+/* ------------ nev left -----------------*/
+.left-w {
+    width: 100%;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+}
+.left-home{
+    position: fixed;
+    width: 220px !important;
+}
+.left-w a{
+    color: #444;
+}
+.box-left-user {
+    margin-bottom: 30px;
+}
+	
+.u-poster {
+    background: #f6f6f6;
+    width: 100%;
+    height: 130px;
+    background-size: 100% 100%;
+    border-bottom: 1px solid #f1f1f1;
+    border-radius: 4px 4px 0px 0px;
+}
+
+ 
+.u-photo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: -36px;
+    border: 1px solid #ddd;
+}
+.u-name h3 {
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.u-city {
+    font-size: 14px;
+    text-align: center;
+    color: #adadad;
+    margin-top: -11px;
+}
+
+.box-group {}
+
+.box-group-c {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.box-group-cc {
+    display: inline-flex;
+    font-size: 14px;
+    
+    line-height: 20px
+}
+
+.group-name {
+    margin-left: 8px;
+    width: 160px
+}
+
+
+.group-stat {
+    width: 28px;
+    font-size: 12px;
+    border-radius: 50%;
+    line-height: 26px;
+    text-align: center;
+    background: #f3f3f385;
+}
+
+/**/
+.box-more {
+    margin-top: 25px;
+}
+
+.more-title {
+    margin-bottom: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8a8a8a;
+}
+	
+/* ico */
+
+.nl-ico-c{
+    width: 22px;
+    height: 22px;
+    background-size: 100% 100% !important
+}
+.conversation-icon {
+    background: url(/4up/ico/conversation.png) no-repeat;
+
+}
+
+.complaint-icon {
+    background: url(/4up/ico/complaint.png) no-repeat;
+}
+
+.idea-icon {
+    background: url(/4up/ico/idea.png) no-repeat;
+
+}
+.m-save-icon {
+    background: url(/4up/ico/star.png);
+}
+.group-ico {
+    background: url(/4up/ico/group.png) no-repeat;
+}
+/* end ico */ 
+
+
+
+/* -------------------------- nev right -------------------------*/
+
+
+.right-w {
+    width: 100%
+}
+ 
+.box-events,
+.box-doctos,
+.box-ads {
+    padding: 5px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #e2e2e2d9;
+}
+
+.box-allAds {
+    height: 200px;
+    overflow: overlay;
+    margin-top: 9px;
+}
+	
+
+
+.box-notif {
+    margin-bottom: 9px;
+    padding: 5px;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px 0 #e2e2e291;
+    border-radius: 33px;
+    margin-right: 10px;
+    border: 1px solid #f3f3f3e8;
+}
+
+.box-notif-c {
+    display: flex;
+}
+
+.box-notifs {
+    height: 240px;
+    overflow: overlay;
+    margin-top: 9px;
+}
+
+.scroll-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(173, 173, 173, 0.3);
+    background-color: #F3F3F3;
+}
+
+.scroll-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: #fff;
+}
+
+.scroll-1::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: #ccc;
+    border: 2px solid #ccc;
+}
+
+.box-notif span {
+    font-size: 13px
+}
+	
+	
+ 
+
+.n-useri img {
+    width: 45px;
+    height: 45px;
+    background-size: 100% 100%;
+    background: url(/4up/ico/cover.png) no-repeat;
+    border-radius: 50%
+}
+
+.n-usern {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%
+}
+
+.box-tt {
+    display: -webkit-box;
+    margin-top: 3px
+}
+
+.box-tt-time {
+    font-size: 14px;
+    color: #868686
+}
+	
+
+.n-active {
+    width: 8px;
+    height: 9px;
+    background: #13c410;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+
+.box-title {
+    color: #ababab;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ 
+	
+
+.box-ut {
+    margin-left: 5px;
+    word-break: break-word;
+    line-height: 13px;
+    margin-top: 13px;
+}
+.box-ttObT {
+    float: right;
+    margin-right: 14px;
+    margin-top: -42px;
+    color: #777;
+}
+
+.box-tt-obtion {
+    font-size: 20px;
+    font-weight: bold;
+    width: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.red{
+    color:red;
+}
+
+.boxi-Complaint-ccc{
+    width: 500px; margin-top: 120px; 
+}
+.boxi-Suggestion-ccc{
+    width: 500px; margin-top: 120px;
+}

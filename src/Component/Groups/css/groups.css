@@ -1,0 +1,223 @@
+
+
+
+/* ---------nev left ----------*/
+
+.left-w {
+    width: 100%;
+    font-family: "Segoe UI", Arial, sans-serif
+}
+.box-group-l{
+     background: #f6f6f6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 8px 8px 0 8px;
+    border: 1px solid #e6e6e6;
+ 
+		
+    }
+    
+    .box-left-user {
+        margin-bottom: 15px;
+       }
+
+       .g-poster{
+    background: url(https://f.top4top.net/p_1187pz78x1.jpg) no-repeat center;
+    width: 100%;
+    background-size: cover;
+    border-bottom: 1px solid #d5d5d5;
+    border-radius: 5px 5px 0px 0px;
+    margin: auto;
+    margin-top: 76px;
+    height: 300px;
+ 
+    position: relative;
+            }
+            .g-name h3 {
+         text-align: center;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 12px;
+                
+            }
+
+            
+.box-group {
+     
+}
+
+.box-group-c {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    border-radius: 2px;
+    text-align: left;
+    margin-bottom: 10px
+}
+
+.box-group-cc {
+     display: inline-flex;
+    font-size: 14px;
+    line-height: 20px
+}
+	.box-group-o{
+		     display: inline-flex;
+    font-size: 14px;
+    line-height: 20px;
+	width: 100%;
+ 		cursor: pointer;
+	}
+	.box-group-o:hover{
+		
+    }
+    
+    
+	.bgo-b{  
+	    border-bottom: 1px dashed #e0e0e0;
+        padding-bottom: 4px;
+	}
+	.box-group-in{
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    padding: 5px;
+    border-radius: 25px;
+    outline: none;
+    padding-left: 10px;
+    color: #444;
+	}
+.group-name {
+    margin-left: 8px;
+    width: 160px
+}
+
+.group-stat {
+    width: 28px;
+    font-size: 12px;
+    border-radius: 50%;
+    line-height: 26px;
+    text-align: center;
+        background: #f3f3f385;
+}
+
+
+.save-icon {
+    width: 18px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    margin-right: .25em;
+    font-size: 1.5rem;
+    background-size: 100% 100%;
+    animation: heartUnlike .25s cubic-bezier(0.175, 0.885, 0.32, 1.275) both
+}
+.save-icon {
+    background: url(/4up/ico/star.png);
+    background-size: 100% 100%;
+}
+/* */
+.box-more{
+		
+    margin-top: 25px;
+}
+.more-title{
+    margin-bottom: 9px;
+font-size: 16px;
+font-weight: bold;
+color: #8a8a8a;
+text-align: left;
+}
+.group-ico {
+    background: url(/4up/ico/group.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    background-size: 100% 100%
+}.conversation-icon {
+    background: url(/4up/ico/conversation.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    background-size: 100% 100%
+}
+.complaint-icon {
+    background: url(/4up/ico/complaint.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    background-size: 100% 100%
+}.idea-icon {
+    background: url(/4up/ico/idea.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    background-size: 100% 100%
+}
+
+
+
+/*---------------------------------- nev right---------------- */
+.right-w{
+    width: 100%;
+}
+.box-events, .box-doctos, .box-RGP, .box-FGP, .box-ads {
+    padding: 5px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #e2e2e2d9;
+}
+.box-title{
+    color: #ababab;
+    font-size: 14px;
+    font-weight: bold;
+}
+.box-allAds {
+    height: 200px;
+    overflow: overlay;
+    margin-top: 9px;
+}
+ 
+
+.box-RGP-cc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+.box-RGP-c img {
+    width: 83px;
+}
+.box-RGP-all, .box-FGP-all {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    color: #3674e4;
+    cursor: pointer;
+}
+
+.box-FGP-cc{
+
+}
+
+.box-FGP-c {
+    background: #ededed;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.scroll-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 2px rgba(173, 173, 173, 0.3);
+	background-color: #F3F3F3;
+}
+
+.scroll-1::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #fff;
+}
+
+.scroll-1::-webkit-scrollbar-thumb
+{
+	border-radius: 15px;
+	background-color: #ccc;
+	border: 2px solid #ccc;
+} 

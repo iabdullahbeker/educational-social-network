@@ -1,0 +1,220 @@
+.user-poster{
+    width: 705px;
+    position: absolute;
+    margin-right: 6px;
+    height: 233px;
+}
+ 
+ 
+.home-cc{
+    margin-top: 0px;
+}
+/*  -------------- Unevleft  */
+
+.left-w {
+    width: 100%;
+    font-family: "Segoe UI", Arial, sans-serif;
+    box-sizing: border-box;
+}
+.box-left-user {
+    margin-bottom: 30px;
+}
+	
+.user-cover-cc {
+    background: #f6f6f6;
+    background-size: cover;
+    border: 1px solid #eaeaea;
+    border-radius: 4px 4px 0px 0px;
+    width: 705px;
+    position: absolute;
+    margin-right: 6px;
+    height: 233px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ 
+.nevleft-margin{
+    margin-top: 237px !important;
+}
+.center-margin{
+           margin-top: 254px !important;
+}
+ 
+.u-photo img {
+    width: 80px;
+    height: 80px;
+    margin-top: -43px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    border: 2px solid #fff;
+}
+.u-name h3 {
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+}
+.u-city {
+    font-size: 14px;
+    text-align: center;
+    color: #adadad;
+    margin-top: 2px;
+}
+
+ 
+ 
+
+.box-u-more{
+    
+}.box-um-c{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.box-um-t{
+    font-size: 14px;
+    line-height: 14px;
+}
+.box-um-ico{
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100% !important;
+    display: block;
+    margin-right: 8px;
+}
+.puplic{
+    background: url(/4up/ico/worldwide.png) no-repeat;
+
+}
+
+
+/* --------- end Unevleft -------*/
+
+ .change-cover-c{
+    position: absolute;
+    padding: 20px;
+ }
+
+ .change-cover,.change-cover-sub{
+    padding: 6px;
+    width: 170px;
+    display: flex;
+    line-height: 20px;
+    border-radius: 2px;
+    justify-content: left;
+    cursor: pointer;
+ }
+ .change-cover:hover{
+    background: #fff;
+
+ }
+ .change-cover p{display: none}
+ .change-cover:hover.change-cover p{
+     display: block;
+ }
+ .change-cover-sub{
+    background: #2192c8;
+    color: #fff;
+    text-align: center;
+    display: block;
+    border-radius: 44px;
+ }
+ .change-cover-sub:hover{
+    background: #24749a
+ }
+
+ .ico-cover,.ico-imge{
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100% !important;
+    background: url(http://localhost:3000/4up/ico/photo-camera.png) no-repeat;
+    display: block;
+    margin-right: 6px;
+}
+
+.lodingcover,.lodingImg{
+    background-size: 100% 100% !important;
+    background: url(http://localhost/4up/ico/loading2.gif) no-repeat;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 99px;
+}
+.lodingImg {
+    margin-top: 16px;
+}
+.lodingImg-c{
+    background: #fff;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 70px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+
+.change-imge-c {
+    width: 78px;
+    position: absolute;
+    left: 71px;
+    height: 42px;
+    margin-top: -42px;
+    display: block;
+    background: #cacaca;
+    border-radius: 0px 0px 43px 42px;
+    cursor: pointer;
+    display: none
+}
+ 
+.u-photo-c:hover.u-photo-c .change-imge-c {
+    display: block;
+}
+.ico-imge {
+    margin: auto;
+    margin-top: 4px;
+    width: 15px;
+    height: 15px;
+}
+.change-imge p{
+    font-size: 11px;
+    padding-top: 2px;
+}
+
+.save-imge-c{
+    background: #2192c8;
+    position: absolute;
+    padding: 5px;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    line-height: 21px;
+    margin-top: -81px;
+    right: -41px;
+    color: #fff;
+    cursor: pointer;
+}
+.save-imge-arrow{
+    float: left;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 14px solid #2192c8;
+    margin-top: -7px;
+    cursor: pointer;
+    margin-left: -6px;
+    transform: rotate(-22deg);
+    -ms-transform: rotate(-22deg);  
+    -webkit-transform: rotate(-22deg);
+}
+.checkup{
+    border: 2px solid #2192c8;
+}

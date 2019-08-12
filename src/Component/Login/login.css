@@ -1,0 +1,322 @@
+body {
+    background: #fff !important;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding: 0;
+    background: #f5f5f5
+}
+ 
+
+header {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #fff;
+    height: 45px;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.h-r,
+.home-r {
+    width: 100%;
+ }
+
+.h-w,
+.home-w{
+    /*width: 1190px;*/
+	width: 1000px;
+    margin: auto;
+    position: relative
+}
+
+.cc {
+    display: inline-block;
+    margin-top: 4px;
+    float: left
+}
+
+.ccr {
+    float: right
+}
+
+.home span,
+.user span,
+.notf span {
+    float: left;
+    margin: 11px 18px 0 5px;
+	
+}
+
+  
+.left-r {
+    width: 220px;
+    display: inline-block
+}
+
+.left-w {
+    width: 100%;
+    font-family: "Segoe UI", Arial, sans-serif
+}
+
+.center-r {
+    width: 500px
+}
+
+.center-w {
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding: 0 15px
+}
+
+.right-r {
+    width: 280px
+}
+
+.right-w {
+    width: 100%
+}
+
+ 
+ 
+/* head2 */
+	.head2-c{
+		  box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+	width: 100%;
+    height: 100vh;
+    background: url('http://yujin.pozitive.io/wp-content/uploads/headerBg.jpg') no-repeat;
+    background-size: cover;
+ 		    overflow: hidden;
+		padding-top: 80px;
+	}
+	.head2-cc{
+		    padding-top: 120px;
+	}
+	.head2-box2{
+
+    float: right;
+	}
+	.head2-box2 p{
+	    color: #fff;
+    text-align: center;
+    line-height: 30px;
+	}
+	.form-box-cc{
+			    background: #ffffff38;
+    width: 278px;
+    border-radius: 7px;
+    padding: 10px;
+	}
+	.head2-box1 {    
+		padding-right: 101px;
+	}
+	.head2-box1 h1{
+	font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+		 
+	}
+	.head2-box1 p{
+		    font-size: 17px;
+		    line-height: 28px;
+		        color: #bdbdbd;
+		    margin-top: 25px;
+	}
+	
+	.head2-box1 ul{
+		           list-style: circle;
+    margin-left: 29px;
+    margin-top: 13px;
+    color: #fff;
+   
+	}
+	.head2-box1 ul li{
+	   font-size: 18px;
+    line-height: 34px;
+	}
+	.icoh{
+	width: 25px;
+    height: 25px;
+   
+    float: left;
+    margin-top: 5px;
+    margin-right: 6px;
+	}
+	.icofast{
+	    background: url('/4up/ico/time-span.png') no-repeat; background-size: 100% 100%;
+
+	}
+	.icoeasy{
+		background: url('/4up/ico/heart-outline.png') no-repeat; background-size: 100% 100%;
+	}
+	.icoorg{
+		background: url('/4up/ico/timetable.png') no-repeat; background-size: 100% 100%;
+	}
+	.box-in{
+        width: 100%;
+        position: relative;
+        padding: 6px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        outline: none;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+	}
+	.box-label{
+		    margin: 5px;
+	}
+	.box-sub,.box-subC{
+        width: 100%;
+        border: 1px solid #2192c8;
+        background: #2192c8;
+        border-radius: 20px;
+        padding: 9px;
+        outline: none;
+        cursor: pointer;
+        color: #fff;
+        margin-top: 8px;
+	}
+		.box-subC{ background: #558a25;border: none}
+
+		.box-sub-s a{
+	      width: 280px;
+    color: #fff;
+    text-align: center;
+    background: #558a25ab;
+    border-radius: 20px;
+    float: right;
+    padding: 9px;
+    text-decoration: none;
+    margin-top: -2px;
+	}
+	#formSignup .box-sub-s a{
+		    background: #1789ff8f;
+    color: #fff;
+    border: 1px solid #787cff;
+	}
+	#formSignup .box-subC{
+		color: #fff;
+	}
+	.box-select{
+		padding: 5px;
+    width: 100%;
+    margin-top: 13px;
+    border: 1px solid #ccc;
+    border-radius: 32px;
+    outline: none;
+	}
+	.lastsel{
+margin-bottom: 25px;
+	}
+	#step2{display: none;}
+	 
+	.uni-logo{
+    background: #ffffff63 url('/4up/ico/uni-logo.png') no-repeat;
+    width: 40px;
+    background-size: 100% 100%;
+    border-radius: 25px 25px 0px 0px;
+    height: 40px;
+    margin: auto;
+    margin-top: -50px;
+	}
+	
+/* uni-box  */
+	.uni-box{
+		    background: #f6f5f5;
+		    padding-bottom: 30px;
+        
+	}
+	.box-arrow-c{
+		    margin: auto;
+    width: 50px;
+	}
+	.box-arrow{
+		cursor: pointer;
+		    background: url('/4up/ico/icons8-below-64.png') no-repeat;
+    width: 50px;
+    background-size: 100% 100%;
+    height: 50px;
+    margin-top: -60px;
+		    position: absolute;
+}
+ 
+/* uni-box*/
+	.sec-head{
+		    background: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+	}
+	
+	.unis-c{
+ 
+		    margin-top: 30px;
+	}
+	.uni-cc{
+	width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 12px;
+	}
+	.unicc-img img{
+		    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+	}
+
+	.unicc-cc{
+		    margin-left: 20px;
+	}
+	.unicc-name h3{
+		    font-size: 25px;
+    margin-top: 40px;
+	}
+	.unicc-des p{
+		font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+	}
+	.unicc-more{
+		    width: 209px;
+    background: #cbcbcb;
+    height: 25px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 12px;
+    line-height: 22px;
+    cursor: pointer;
+	}
+	
+/* */
+	.top10{
+		    margin-top: 10px;
+	}
+	#formSignup{display: none}
+	
+/* footer */
+	footer{
+		
+		    height: 40px;
+    background: #dcdcdc;
+    padding-top: 12px;
+	}
+	.Fr-cc{
+		    border-right: 1px solid #ccc;
+  	}
+	.Fr-cc ul{
+		    display: flex;
+    justify-content: space-between;
+	}
+	.Fr-cc ul a{
+		text-decoration: none;
+		color: #444;
+	}
